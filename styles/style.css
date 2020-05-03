@@ -36,6 +36,11 @@ ul {
   list-style: none;
 }
 
+img {
+  border-radius: 25%;
+   max-width: 270px;
+}
+
 .btn {
   display: inline-block;
   border: 0;
@@ -180,12 +185,11 @@ ul {
     width: 50%;
     display: block;
     margin: 30px auto;
+    border-radius: 20px;
   }
 
   .section-grid {
     display: block;
     margin-top: 0;
   }
-
-  
 }
