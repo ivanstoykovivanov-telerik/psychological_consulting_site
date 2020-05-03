@@ -138,9 +138,7 @@ ul {
 /* Footer */
 .footer {
   border-top: var(--text-color) 1px solid;
-  padding: 30px;
-  margin-top: 20px;
-  min-height: 150px;
+  min-height: 120px;
   padding-top: 50px;
   font-size: 0.9em;
 }
@@ -189,7 +187,5 @@ ul {
     margin-top: 0;
   }
 
-  .footer ul {
-    display: flex;
-  }
+  
 }
