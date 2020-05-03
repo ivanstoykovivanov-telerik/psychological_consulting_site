@@ -34,7 +34,6 @@ a {
 
 ul {
   list-style: none;
-  color: red;
 }
 
 .btn {
@@ -141,6 +140,9 @@ ul {
   border-top: var(--text-color) 1px solid;
   padding: 30px;
   margin-top: 20px;
+  min-height: 150px;
+  padding-top: 50px;
+  font-size: 0.9em;
 }
 
 .footer ul {
@@ -188,16 +190,6 @@ ul {
   }
 
   .footer ul {
-    display: block;
-    align-item: center; 
-    justify-content: space-around; 
-    color: red;
-    
+    display: flex;
   }
-  
-   
-  .footer ul li a {
-    color: red;
-}
-  
 }
