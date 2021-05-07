@@ -32,6 +32,10 @@ a {
   color: #fff;
 }
 
+.modal-title, .modal-body {
+  color: black;
+}
+
 ul {
   list-style: none;
 }
