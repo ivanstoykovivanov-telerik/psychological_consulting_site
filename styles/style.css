@@ -44,9 +44,9 @@ ul {
   list-style: none;
 }
 
-img {
+.play {
   border-radius: 25%;
-   max-width: 270px;
+  max-width: 270px;
 }
 
 .btnz {
@@ -146,6 +146,14 @@ img {
 .section-grid .dot {
   font-size: 40px;
   padding-left: 2px;
+}
+
+.pic2{
+  border-radius: 4%;
+  max-width: 28%;
+  margin-top:2%; 
+  margin-left:1%; 
+  opacity: 0.78;
 }
 
 /* Footer */
