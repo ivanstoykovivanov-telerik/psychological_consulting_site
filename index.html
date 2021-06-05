@@ -11,7 +11,6 @@
       integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
@@ -19,36 +18,29 @@
             <div class="content rellax" data-rellax-speed="5">
                 <h1 class="mb-5">Консултиране</h1>    
                 <h3 class="px-3 pt-2">проф д-р Стойко Иванов</h3>          
-                <h4 class="px-3 pt-2">0887848324</h4>          
+                <h4 class="px-3 pt-2"><a href="tel:+359887075824">+359887075824</a></h4>                  
                 <h4 class="px-3 pt-2">stoyko.v.ivanov@gmail.com</h4>          
             </div>
         </section>
-
-        <section class="section section-stream">
+        
+        <section class="section section-stream"  data-rellax-speed="-10" data-rellax-xs-speed="-10">
+            <!-- class="img-fluid pic2 rellax"                 -->
             <img
-                class="img-fluid pic2 rellax"                
+                class="img-fluid pic2"                
                 src="/images/portrait_transparent.png"
-                alt=""
-                data-rellax-speed="-1" data-rellax-xs-speed="-5"
+                alt=""               
             />
-            <div class="content rellax" data-rellax-speed="10">                                
+            <div class="content rellax" id="about_me" data-rellax-speed="10">                                
                 <div>
-                    <h2 type="button" class="btnz btn btn-warning" data-bs-toggle="modal" data-bs-target="#zaMenModal">За мен</h2>
-                    <!-- <h4 type="button" class="btn btn-secondary btn-lg m-3" data-bs-toggle="modal" data-bs-target="#zaMenModal">Публикации</h4> -->
-                    <!-- <h4 type="button" class="btn btn-secondary btn-lg m-1" data-bs-toggle="modal" data-bs-target="#zaMenModal">Книги</h4> -->                   
-                    <p class="mt-3">
-                        Учител, професор, консултант, терапевт                                     
-                    </p>                                                            
+                    <h2 type="button" class="btnz btn btn-warning" data-bs-toggle="modal" data-bs-target="#zaMenModal">За мен</h2>                    
+                    <p class="mt-3">Учител, професор, консултант, терапевт</p>                                                            
                 </div> 
                 <div>
                     <h2 class="secondary-text">
                         <h2 type="button" class="btnz btn btn-warning" data-bs-toggle="modal" data-bs-target="#uslugiModal">Отзиви</h2>                    
                     </h2>                  
-                    <p class="mt-3" >
-                        Фийдбек от предишни клиенти.
-                    </p>
-                </div>
-                              
+                    <p class="mt-3" >Фийдбек от предишни клиенти.</p>
+                </div>                              
             </div>
         </section>
             
@@ -182,7 +174,7 @@
         </div>
 
         <section class="section section-grid">
-            <div class="rellax" data-rellax-speed="1" data-rellax-xs-speed="3">
+            <div class="rellax" data-rellax-speed="3" data-rellax-xs-speed="3">
                 <i class="fas fa-video fa-3x secondary-text"></i>
                 <h2>Онлайн консултации</h2>
                 <p>
@@ -190,7 +182,7 @@
                     dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
                 </p>                
             </div>
-            <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">                
+            <div class="rellax" data-rellax-speed="6" data-rellax-xs-speed="3">                
                 <i class="fas fa-user fa-3x secondary-text"></i>
                 <h2>Консултации</h2>
                 <p>
@@ -198,7 +190,7 @@
                         dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
                 </p>
             </div>
-            <div class="rellax" data-rellax-speed="5" data-rellax-xs-speed="3">
+            <div class="rellax" data-rellax-speed="8" data-rellax-xs-speed="3">
                 <!-- <i class="fas fa-book fa-3x secondary-text"></i> -->
                 <i class="fas fa-users fa-3x secondary-text"></i>
                 <h2>Тренинги</h2>
@@ -208,18 +200,9 @@
                 </p>
             </div>
         </section>
-
-        <!-- <section class="section section-stream">
-            <img
-                class="pic2 rellax"
-                src="/images/portrait.jpg"
-                alt=""
-                data-rellax-speed="-1" data-rellax-xs-speed="-5"
-            />            
-        </section> -->
-<footer class="footer">
-  <ul>    
-    <li><a href="#">Отзиви</a></li>
+        
+<footer class="footer" data-rellax-speed="10" data-rellax-xs-speed="10" >
+  <ul>        
     <li><a href="#">Адрес</a></li>
     <li><a href="#">Общи условия за ползване</a></li>
     <li><a href="#">Декларация за поверителност</a></li>

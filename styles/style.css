@@ -148,19 +148,42 @@ ul {
   padding-left: 2px;
 }
 
+
 .pic2{
   border-radius: 4%;
-  max-width: 18%;
+  /* max-width: 18%; works  */
+  width: 20rem;
+  height: auto; 
   margin-top:4%; 
-  margin-left:3%; 
+  margin-left:1%; 
   opacity: 0.99;
 }
 
+/*  Tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .pic2{
+      border-radius: 4%;       
+      width: 20rem;
+      height: auto;
+      margin-left: 0%;      
+      margin-top: 0%;      
+      opacity: 1.00;
+    }
+
+    #about_me{
+      padding-left: 2rem;
+    }
+}
 /* Footer */
 .footer {
   border-top: var(--text-color) 1px solid;
-  min-height: 120px;
-  padding-top: 50px;
+  min-height: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   font-size: 0.9em;
 }
 
